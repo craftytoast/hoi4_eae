@@ -1,0 +1,30 @@
+
+state={
+	id=274
+	name="STATE_274"
+
+	history={
+		owner = GHA
+		add_core_of = GHA
+		victory_points = {
+			10862 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			10862 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		10862 13490 13495 13502 13494
+	}
+	manpower=1263300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

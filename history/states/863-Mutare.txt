@@ -1,0 +1,22 @@
+state={
+	id=863
+	name="STATE_863"
+	provinces={
+		14107 14108 14114 14117 14118 14124 14126 14129 14131 14135 
+	}
+	manpower=140160
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ZIM
+		victory_points = {
+			14018 3 
+		}
+
+	}
+}

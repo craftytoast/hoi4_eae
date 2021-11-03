@@ -1,0 +1,25 @@
+state={
+	id=887
+	name="STATE_887"
+	provinces={
+		5060 8084 10739 14800 14801 14803 14810 14811 14816 14817 14818 14823 14825 14826 14828 14830 14833 14834 14836 
+	}
+	manpower=197600
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = ENG
+		add_core_of = SUD
+		victory_points = {
+			14811 3 
+		}
+		victory_points = {
+			14816 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

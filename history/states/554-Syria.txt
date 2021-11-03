@@ -1,0 +1,30 @@
+
+state={
+	id=554
+	name="STATE_554"
+
+	history={
+		owner = FRA
+		victory_points = {
+			4111 20 
+		}
+		victory_points = {
+			20974 10 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		4111 4550 7184 17185 17188 17189 17191 20972 20973 20974 
+	}
+	manpower=737250
+	#547797
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

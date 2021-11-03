@@ -1,0 +1,33 @@
+
+state={
+	id=540
+	name="STATE_540"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 3
+			8248 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			8248 20 
+		}
+		add_core_of = ANG
+
+	}
+
+	provinces={
+		5158 8248 15823 15825 15837 15845 15850 
+	}
+	manpower=860300
+	#3200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

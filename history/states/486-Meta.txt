@@ -1,0 +1,27 @@
+
+state={
+	id=486
+	name="STATE_486"
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = COL
+victory_points = {
+			17849 3 
+		}
+		victory_points = {
+			17833 3 
+		}
+	}
+
+	provinces={
+		1887 5026 17820 17821 17823 17824 17827 17828 17829 17831 17833 17838 17839 17841 17847 17848 17849 
+	}
+	manpower=213160
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

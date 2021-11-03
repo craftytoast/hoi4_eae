@@ -1,0 +1,31 @@
+
+state={
+	id=777
+	name="STATE_777"
+
+	history={
+		owner = FWA
+		add_core_of = TOG
+		add_core_of = FWA
+		victory_points = {
+			1951 1 
+		}
+		buildings = {
+			infrastructure = 3
+			1951 = {
+				naval_base = 1
+
+			}
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1951 13731 13735 13741 13742 
+	}
+	manpower=562946
+	#1101346
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

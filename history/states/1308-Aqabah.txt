@@ -1,0 +1,28 @@
+state={
+	id=1308
+	name="STATE_1308"
+	provinces={
+		4017 4115 16896 16899 20986 20987 
+	}
+	manpower=22451
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = JOR
+		victory_points = {
+			20987 3 
+		}
+		victory_points = {
+			20986 3 
+		}
+		victory_points = {
+			16896 3 
+		}
+
+	}
+}

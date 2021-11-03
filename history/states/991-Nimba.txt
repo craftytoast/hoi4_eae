@@ -1,0 +1,22 @@
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		13730 13734 13736 13740 13743 
+	}
+	manpower=142000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+		history={
+		owner = LIB
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LIB
+		victory_points = {
+			13734 3
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1013
+	name="STATE_1013"
+	provinces={
+		2213 10668 15965 16020 16027 16031 16032 16033 16035 16038 16043 16044 16045 16046 16048 16049 16053 16054 16056 16057 16059 16062 16069 
+	}
+	manpower=561440
+	buildings_max_level_factor=1.000
+		state_category=town
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = SAF
+		victory_points = {
+			16054 3
+		}	
+
+	}
+}

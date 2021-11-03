@@ -1,0 +1,23 @@
+state={
+	id=1294
+	name="STATE_1294"
+	provinces={
+		20959 
+	}
+	manpower=81130
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+		victory_points = {
+			20959 20 
+		}
+
+	}
+}

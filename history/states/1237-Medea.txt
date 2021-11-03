@@ -1,0 +1,26 @@
+state={
+	id=1237
+	name="STATE_1237"
+	provinces={
+		1126 1128 1967 4018 5053 7033 7040 7149 9960 12020 20700 20701 20702 20703 20709 20712 20714 20715 20720 20721 20725 20726 20729 20731 20732 20736 20738 20742 20743 20745 20746 20748 
+	}
+	manpower=268200
+	buildings_max_level_factor=1.000
+	state_category=rural
+		buildings_max_level_factor=1.000
+		history={
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			9960 3
+		}
+		victory_points = {
+			20746 3
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+}

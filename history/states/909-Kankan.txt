@@ -1,0 +1,23 @@
+state={
+	id=909
+	name="STATE_909"
+	provinces={
+		4957 13552 13557 13560 13561 13564 13566 13568 16300 
+	}
+	manpower=478800
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = FWA
+		add_core_of = GNA
+		add_core_of = FWA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			13557 3
+		}
+
+	}
+}

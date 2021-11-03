@@ -1,0 +1,25 @@
+state={
+	id=902
+	name="STATE_902"
+	provinces={
+		12908 14322 14323 14324 14325 14326 14327 14328 
+	}
+	manpower=584100
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = ENG
+		add_core_of = MLW
+		victory_points = {
+			14324 3
+		}
+		victory_points = {
+			14325 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

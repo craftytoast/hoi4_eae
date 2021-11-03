@@ -1,0 +1,22 @@
+state={
+	id=1154
+	name="STATE_1154"
+	provinces={
+		10912 18317 18324 18328 18334 18336 18338 
+	}
+	manpower=251030
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = VEN
+		victory_points = {
+			18334 3 
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		697 12677 14196 14202 14208 14215 14217 14219 14223 14228 14230 14232 14235 14241 14246 14248 14255 
+	}
+	manpower=72704
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = ENG
+		add_core_of = ZAM
+		victory_points = {
+			14202 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

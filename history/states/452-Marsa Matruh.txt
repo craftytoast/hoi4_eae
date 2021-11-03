@@ -1,0 +1,29 @@
+
+state={
+	id=452
+	name="STATE_452"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			9989 10 
+		}
+		victory_points = {
+			11910 3 
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		5078 7079 7148 9989 10061 11910 11967 12033 12091 13254 13256 13454 13455 13463 13464 13465 13466 13469 
+	}
+	manpower=72765
+	#52556
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

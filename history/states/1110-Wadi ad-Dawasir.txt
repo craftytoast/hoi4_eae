@@ -1,0 +1,22 @@
+
+state={
+	id=1110
+	name="STATE_1110"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = YEM
+
+	}
+
+	provinces={
+		12821 17020 17021 17022 17023 17024 17025 17148 17149 
+	}
+	manpower=123480
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+state={
+	id=1023
+	name="STATE_1023"
+	provinces={
+		12299 13354 13355 
+	}
+	manpower=307200
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = MAL
+		victory_points = {
+			12299 20 
+		}
+		victory_points = {
+			13354 5 
+		}
+		victory_points = {
+			13355 10 
+		}
+		buildings = {
+			infrastructure = 6
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+
+			}
+
+		}
+		add_core_of = MAL
+
+	}
+}

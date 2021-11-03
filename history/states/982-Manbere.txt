@@ -1,0 +1,22 @@
+state={
+	id=982
+	name="STATE_982"
+	provinces={
+		11012 16097 16105 16107 16108 16109 16121 16122 16123 16140 16143 
+	}
+	manpower=142400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+		history={
+		owner = FRA
+		add_core_of = CAR
+		victory_points = {
+			16105 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

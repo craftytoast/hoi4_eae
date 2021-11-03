@@ -1,0 +1,19 @@
+state={
+	id=1100
+	name="STATE_1100"
+	provinces={
+		1362 1390 1520 4260 10326 12332 16782 16784 16785 16787 
+	}
+	manpower=133520
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		add_core_of = LAO
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1002
+	name="STATE_1002"
+	provinces={
+		6008 15556 15561 15565 15566 15569 15571 15574 15575 15576 15577 15578 
+	}
+	manpower=24000
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = FRA
+		add_core_of = RCG
+		victory_points = {
+			15569 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

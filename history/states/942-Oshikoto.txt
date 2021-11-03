@@ -1,0 +1,23 @@
+state={
+	id=942
+	name="STATE_942"
+	provinces={
+		15084 15087 15091 15092 15093 15097 15100 15102 15105 15107 15111 15113 15115 15120 15122 15123 15124 
+	}
+	manpower=140194
+	buildings_max_level_factor=1.000
+		state_category=enclave
+		history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SAF
+		add_core_of = NMB
+		victory_points = {
+			15122 3
+		}	
+
+	}
+}

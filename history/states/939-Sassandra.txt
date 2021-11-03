@@ -1,0 +1,26 @@
+state={
+	id=939
+	name="STATE_939"
+	provinces={
+		8065 8122 10762 13480 13486 13488 13498 13500 13501 13506 13512 
+	}
+	manpower=1049950
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = FWA
+		add_core_of = IVO
+		add_core_of = FWA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			13506 3
+		}
+		victory_points = {
+			10762 3
+		}
+
+	}
+}

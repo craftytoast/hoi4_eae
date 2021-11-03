@@ -1,0 +1,37 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		owner = ITA
+		add_core_of = SOM
+		victory_points = {
+			12991 20 
+		}
+		victory_points = {
+			10928 3 
+		}
+		victory_points = {
+			17249 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			12941 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2063 10928 12991 17224 17227 17229 17231 17233 17234 17236 17238 17240 17241 17245 17246 17247 17249 
+	}
+	manpower=305920
+	#1028895
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

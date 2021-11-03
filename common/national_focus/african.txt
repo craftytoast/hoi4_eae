@@ -1,0 +1,575 @@
+﻿focus_tree = {
+	id = african_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FWA
+		}
+	}
+	
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1600 }
+
+	focus = {
+		id = AFR_obedience
+		icon = GFX_focus_CZE_german_puppet
+		x = 6
+		y = 0
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			ROOT = {
+				is_subject = yes
+			}
+		}
+
+		mutually_exclusive = {
+			focus = AFR_resistance
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = AFR_resistance
+		icon = GFX_goal_generic_demand_territory
+		x = 18
+		y = 0
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		mutually_exclusive = {
+			focus = AFR_obedience
+		}
+
+		available = {
+			ROOT = {
+				is_subject = yes
+			}
+		}
+
+		bypass = {
+			NOT = {
+				ROOT = {
+					is_subject = yes
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+			if = {
+				ROOT = {
+					is_subject_of = FRA
+				}
+				FRA = {
+					end_puppet = ROOT
+				}
+			}
+			else_if = {
+				ROOT = {
+					is_subject_of = ENG
+				}
+				ENG = {
+					end_puppet = ROOT
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AFR_eco_growth_plan
+		icon = GFX_goal_generic_construction
+		x = 12
+		y = 2
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		prerequisite = {
+			focus = AFR_obedience
+			focus = AFR_resistance
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = {
+				african_growth_plan
+			}
+			add_political_power = -5
+		}
+	}
+	focus = {
+		id = AFR_agrarian_effort
+		icon = GFX_goal_generic_construction2
+		x = 14
+		y = 2
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		prerequisite = {
+			focus = AFR_obedience
+			focus = AFR_resistance
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+                add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+            }
+			add_political_power = -5
+		}
+	}
+	focus = {
+		id = AFR_industry_effort_i
+		icon = GFX_focus_generic_industry_1
+		x = 13
+		y = 3
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		prerequisite = {
+			focus = AFR_eco_growth_plan
+		}
+		prerequisite = {
+			focus = AFR_agrarian_effort
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+                add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+            }
+		}
+	}
+
+	focus = {
+		id = AFR_industry_effort_ii
+		icon = GFX_focus_generic_industry_2
+		x = 13
+		y = 4
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		prerequisite = {
+			focus = AFR_industry_effort_i
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+                add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+            }
+		}
+	}
+
+	focus = {
+		id = AFR_industry_effort_iii
+		icon = GFX_focus_generic_industry_3
+		x = 13
+		y = 5
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		prerequisite = {
+			focus = AFR_industry_effort_ii
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+                add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+            }
+		}
+	}
+
+	focus = {
+		id = AFR_invite_colonial_investors
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 6
+		y = 2
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		prerequisite = {
+			focus = AFR_obedience
+		}
+
+		available = {
+			ROOT = {
+				is_subject = yes
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = -5
+		}
+	}
+
+	focus = {
+		id = AFR_colonial_investment
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 9
+		y = 4
+
+		cost = 6
+
+		ai_will_do = {
+			factor = 8
+		}
+
+		prerequisite = {
+			focus = AFR_eco_growth_plan
+		}
+		prerequisite = {
+			focus = AFR_invite_colonial_investors
+		}
+
+		available = {
+			ROOT = {
+				is_subject = yes
+			}
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+                add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+				add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+            }
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+	focus = {
+		id = AFR_arm_effort_i
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 9
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		prerequisite = {
+			focus = AFR_obedience
+			focus = AFR_resistance
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+                add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+            }
+		}
+	}
+	focus = {
+		id = AFR_arm_effort_ii
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 9
+		y = 2
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		prerequisite = {
+			focus = AFR_arm_effort_i
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+                add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+            }
+		}
+	}
+
+}

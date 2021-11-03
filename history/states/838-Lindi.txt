@@ -1,0 +1,22 @@
+state={
+	id=838
+	name="STATE_838"
+	provinces={
+		12944 13923 13924 13930 13932 13933 13936 13939 13940 13943 13946 13949 13951 13957 
+	}
+	manpower=407000
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = ENG
+		victory_points = {
+			13930 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TZN
+
+	}
+}

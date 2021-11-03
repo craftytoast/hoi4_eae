@@ -1,0 +1,34 @@
+
+state={
+	id=484
+	name="STATE_484"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			1892 = {
+				naval_base = 2
+
+			}
+			12736 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = MEX
+		victory_points = {
+			12461 10 
+		}
+
+	}
+
+	provinces={
+		1892 1904 7964 8119 12461 12736 12859 13215 13216 20234 20236 20238 20241 20252 20261 20268 20272 20279 20282 20285 20293 20300 20303 20306 20307 20308 20309 20310 20311 20312 20313 20314 20315 20316 20317 
+	}
+	manpower=108841
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

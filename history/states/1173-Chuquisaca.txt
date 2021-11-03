@@ -1,0 +1,25 @@
+state={
+	id=1173
+	name="STATE_1173"
+	provinces={
+		5179 5229 10987 12979 17979 17981 17982 17984 17985 17986 17987 17989 17992 17993 17994 17997 18002 18003 18007 18010 18013 
+	}
+	manpower=312800
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = BOL
+		victory_points = {
+			18013 3 
+		}
+		victory_points = {
+			17986 3 
+		}
+
+	}
+}

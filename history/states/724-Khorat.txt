@@ -1,0 +1,29 @@
+
+state={
+	id=724
+	name="STATE_724"
+	resources={
+		rubber=40.000
+	}
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			7236 10 
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1279 4297 4371 7236 10156 12131 12286 16376 
+	}
+	manpower=1357700
+	#2041700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

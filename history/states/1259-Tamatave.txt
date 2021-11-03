@@ -1,0 +1,31 @@
+state={
+	id=1259
+	name="STATE_1259"
+	provinces={
+		20767 20771 20772 20775 20776 20778 20779 20780 20784 20785 20787 20788 20789 20795 20796 
+	}
+	manpower=648265
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		add_core_of = MAD
+		owner = FRA
+		victory_points = {
+			20796 3 
+		}
+victory_points = {
+			20785 3 
+		}
+		victory_points = {
+			20780 3 
+		}
+		victory_points = {
+			20779 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

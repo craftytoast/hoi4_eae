@@ -1,0 +1,27 @@
+
+state={
+	id=490
+	name="STATE_490"
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = PRU
+		victory_points = {
+			17961 10 
+		}
+
+	}
+
+	provinces={
+		8149 17955 17956 17958 17959 17961 17963 17964 17966 17968 17969 17972 17973 17975 17977 
+	}
+	manpower=70020
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

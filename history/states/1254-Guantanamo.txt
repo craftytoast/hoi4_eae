@@ -1,0 +1,23 @@
+state={
+	id=1254
+	name="STATE_1254"
+	provinces={
+		7590 12347 20430 20432 20434 
+	}
+	manpower=622400
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = CUB
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = CUB
+		victory_points = {
+			7590 5 
+		}
+
+	}
+
+}

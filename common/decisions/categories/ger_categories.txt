@@ -1,0 +1,43 @@
+
+reich_labour_service = {
+	icon = GFX_decision_category_ger_reichskommissariats
+	visible_when_empty = yes
+	priority = 11
+	allowed = {
+		tag = GER
+	}
+	picture = GFX_decision_cat_picture_reforming_our_armed_forces
+}
+ger_reichsautobahn = {
+	icon = GFX_decision_category_ger_reichskommissariats
+	visible_when_empty = yes
+	priority = 11
+	allowed = {
+		tag = GER
+	}
+}
+atlantikwall = {
+	icon = GFX_decision_category_ger_reichskommissariats
+	visible_when_empty = yes
+	priority = 11
+	allowed = {
+		tag = GER
+		has_war_with = USA
+		#date > 1941.12.31
+		has_government = fascism
+		OR = {
+			controls_state = 806
+			controls_state = 19
+			controls_state = 23
+			controls_state = 30
+			controls_state = 14
+			controls_state = 15
+			controls_state = 785
+			controls_state = 29
+			controls_state = 6
+			controls_state = 7
+			controls_state = 35
+			controls_state = 36
+		}
+	}
+}

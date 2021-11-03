@@ -1,0 +1,19 @@
+state={
+	id=1148
+	name="STATE_1148"
+	provinces={
+		1981 10767 18266 18268 18269 18307 18308 
+	}
+	manpower=17160
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = VEN
+
+	}
+}

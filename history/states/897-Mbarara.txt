@@ -1,0 +1,28 @@
+state={
+	id=897
+	name="STATE_897"
+	provinces={
+		3854 7088 13177 14277 14279 14280 14282 14283 14285 14286 14290 14293 14294 14301 
+	}
+	manpower=886400
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = UGA
+		victory_points = {
+			14290 3 
+		}
+		victory_points = {
+			14283 3 
+		}
+		victory_points = {
+			14279 3 
+		}
+
+	}
+}

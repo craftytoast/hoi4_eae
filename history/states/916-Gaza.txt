@@ -1,0 +1,22 @@
+state={
+	id=916
+	name="STATE_916"
+	provinces={
+		5177 15589 15590 15592 15593 15594 15595 15597 15598 15599 15600 15603 15604 15605 15608 15609 
+	}
+	manpower=227520
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = POR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MZB
+		victory_points = {
+			15603 3
+		}	
+
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=1109
+	name="STATE_1109"
+
+	history={
+		owner = SAU
+		victory_points = {
+			17028 20 
+		}
+		victory_points = {
+			20893 3 
+		}
+		victory_points = {
+			20889 3 
+		}
+		victory_points = {
+			17105 3 
+		}
+		victory_points = {
+			17032 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SAU
+
+	}
+
+	provinces={
+		12727 17026 17028 17030 17032 17036 17037 17105 20882 20883 20884 20886 20887 20889 20890 20891 20892 20893 20927 20928 
+	}
+	manpower=657280
+	buildings_max_level_factor=1.000
+	state_category=town
+}

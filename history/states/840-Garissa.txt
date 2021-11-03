@@ -1,0 +1,21 @@
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		10761 10976 14470 14480 14486 14489 14493 14495 14502 14507 
+	}
+	manpower=67800
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = ENG
+		victory_points = {
+			14470 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KEN
+		}
+}

@@ -1,0 +1,22 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		10857 14693 14694 14695 14696 14697 14699 14700 14701 14704 14706 14709 14710 14711 14714 14719 14723 14725 14727 14733 16299 
+	}
+	manpower=110500
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = ENG
+		add_core_of = SUD
+		victory_points = {
+			14704 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

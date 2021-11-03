@@ -1,0 +1,22 @@
+state={
+	id=1037
+	name="STATE_1037"
+	provinces={
+		1332 1373 1533 10225 12212 12343 16335 16336 16337 16339 16341 16342 
+	}
+	manpower=447950
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			16336 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

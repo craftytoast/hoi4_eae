@@ -1,0 +1,33 @@
+
+state={
+	id=741
+	name="STATE_741"
+
+	history={
+		add_core_of = CAM
+		owner = FRA
+		victory_points = {
+			7376 20 
+		}
+		victory_points = {
+			7432 3 
+		}
+		buildings = {
+			infrastructure = 2
+			7432 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7376 7432 10289 10317 12260 12288 16797 16798 16799 16818 
+	}
+	manpower=2195070
+	#5245000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

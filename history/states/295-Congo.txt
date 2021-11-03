@@ -1,0 +1,30 @@
+
+state={
+	id=295
+	name="STATE_295"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			5117 20
+		}
+		add_core_of = COG
+
+	}
+
+	provinces={
+		5117 15215 15219 15220 15221 15223 15230 15231 15238 15241 15245 15248 
+	}
+	manpower=868125
+	#3540948
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

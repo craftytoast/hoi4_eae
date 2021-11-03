@@ -1,0 +1,29 @@
+
+state={
+	id=640
+	name="STATE_640"
+	resources={
+		tungsten=120.000
+	}
+
+	history={
+		add_core_of = BRM
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		victory_points = {
+			1492 1 
+		}
+
+	}
+
+	provinces={
+		1492 7469 10386 10920 12404 12464 12492 16752 16753 16755 16757 16771 
+	}
+	manpower=2812300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

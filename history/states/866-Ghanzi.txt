@@ -1,0 +1,22 @@
+state={
+	id=866
+	name="STATE_866"
+	provinces={
+		14377 14379 14380 14381 14382 14386 14387 14389 14390 14393 14395 14397 14398 14400 14404 14406 
+	}
+	manpower=4300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BOT
+		victory_points = {
+			14406 3 
+		}
+
+	}
+}

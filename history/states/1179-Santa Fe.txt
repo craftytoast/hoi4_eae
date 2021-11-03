@@ -1,0 +1,31 @@
+state={
+	id=1179
+	name="STATE_1179"
+	provinces={
+		2172 5163 5213 7500 13000 18357 18360 18365 18367 18373 18375 18376 18380 18385 18388 18389 18390 18393 18397 18398 18399 18403 18404 18405 18487 18490 18493 18495 
+	}
+	manpower=939870
+	buildings_max_level_factor=1.000
+		state_category=town
+		history={
+		owner = ARG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 1
+			arms_factory = 1
+
+		}
+		add_core_of = ARG
+		victory_points = {
+			7500 20
+		}
+		victory_points = {
+			18376 3 
+		}
+		victory_points = {
+			18405 3 
+		}
+
+	}
+}

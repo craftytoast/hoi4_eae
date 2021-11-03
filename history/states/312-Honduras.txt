@@ -1,0 +1,39 @@
+
+state={
+	id=312
+	name="STATE_312"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = HON
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			12865 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = HON
+		victory_points = {
+			17658 10 
+		}
+		victory_points = {
+			17652 3 
+		}
+
+	}
+
+	provinces={
+		12865 17652 17653 17654 17655 17658 
+	}
+	manpower=243485
+	#859761
+	buildings_max_level_factor=1.000
+	state_category=town
+}

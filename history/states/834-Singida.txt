@@ -1,0 +1,19 @@
+state={
+	id=834
+	name="STATE_834"
+	provinces={
+		13960 13962 13970 13974 13977 13978 13985 13988 13990 13996 13998 14010 
+	}
+	manpower=109000
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TZN
+
+	}
+}

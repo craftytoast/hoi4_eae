@@ -1,0 +1,29 @@
+
+state={
+	id=765
+	name="STATE_765"
+
+	history={
+		add_core_of = QAT
+		owner = ENG
+		victory_points = {
+			8051 1 
+		}
+		buildings = {
+			infrastructure = 2
+			8051 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		8051 17110 17116 17118 17121 
+	}
+	manpower=51600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

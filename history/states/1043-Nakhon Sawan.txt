@@ -1,0 +1,22 @@
+state={
+	id=1043
+	name="STATE_1043"
+	provinces={
+		7338 7353 7572 10398 10411 12173 12345 16393 16397 16400 16405 16410 16438 16439 16444 16446 16447 16450 16451 16454 16465 
+	}
+	manpower=1071500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SIA
+				victory_points = {
+			16446 10 
+		}
+
+	}
+}

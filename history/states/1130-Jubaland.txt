@@ -1,0 +1,22 @@
+state={
+	id=1130
+	name="STATE_1130"
+	provinces={
+		1966 4909 10818 10891 17261 17263 17264 17265 17266 17267 17268 17269 17270 17271 17272 17273 17276 
+	}
+	manpower=93571
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = ITA
+		add_core_of = SOM
+		victory_points = {
+			17265 3 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+}

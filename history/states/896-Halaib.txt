@@ -1,0 +1,19 @@
+state={
+	id=896
+	name="STATE_896"
+	provinces={
+		14955 14956 14957 14958 
+	}
+	manpower=1200
+	buildings_max_level_factor=1.000
+			state_category=wasteland
+		history={
+		owner = ENG
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

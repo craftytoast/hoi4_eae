@@ -1,0 +1,25 @@
+state={
+	id=1050
+	name="STATE_1050"
+	provinces={
+		1281 1308 1337 1366 1394 4312 4388 10158 12201 12230 16377 16378 
+	}
+	manpower=684200
+	buildings_max_level_factor=1.000
+		state_category=rural
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SIA
+		victory_points = {
+			12201 5
+		}
+		victory_points = {
+			1308 3
+		}
+
+	}
+}

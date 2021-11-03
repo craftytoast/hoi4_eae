@@ -1,0 +1,24 @@
+state={
+	id=1027
+	name="STATE_1027"
+	provinces={
+		1348 1392 4384 10227 12255 13424 13426 13427 13430 13433 13434 
+	}
+	manpower=150930
+	buildings_max_level_factor=1.000
+		state_category=rural
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MAL
+		victory_points = {
+			13426 3
+		}
+		victory_points = {
+			4384 3
+		}
+
+	}
+}

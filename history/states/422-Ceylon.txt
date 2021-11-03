@@ -1,0 +1,34 @@
+
+state={
+	id=422
+	name="STATE_422"
+	resources={
+		rubber=60.000
+	}
+
+	history={
+		add_core_of = SRL
+		owner = ENG
+		victory_points = {
+			7260 1 
+		}
+		buildings = {
+			infrastructure = 3
+			7260 = {
+				naval_base = 3
+				coastal_bunker = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7260 7344 16369 16372 
+	}
+	manpower=2609867
+	#5500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

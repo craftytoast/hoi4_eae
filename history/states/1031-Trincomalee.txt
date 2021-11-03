@@ -1,0 +1,22 @@
+state={
+	id=1031
+	name="STATE_1031"
+	provinces={
+		4219 10229 12258 16370 
+	}
+	manpower=679750
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		add_core_of = SRL
+		owner = ENG
+		victory_points = {
+			12258 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=850
+	name="STATE_850"
+	provinces={
+		14201 14203 14210 14211 14213 14220 14221 14222 14229 14233 14234 14243 14244 
+	}
+	manpower=197231
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = ENG
+		add_core_of = ZAM
+		victory_points = {
+			14244 3
+		}
+		victory_points = {
+			14234 3
+		}
+		victory_points = {
+			14211 3
+		}
+		victory_points = {
+			14222 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

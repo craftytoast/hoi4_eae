@@ -1,0 +1,22 @@
+state={
+	id=998
+	name="STATE_998"
+	provinces={
+		9137 16120 16128 16131 16133 16144 16147 16154 16160 16164 
+	}
+	manpower=166100
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = FRA
+		add_core_of = CMR
+		victory_points = {
+			9137 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

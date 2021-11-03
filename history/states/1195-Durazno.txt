@@ -1,0 +1,22 @@
+state={
+	id=1195
+	name="STATE_1195"
+	provinces={
+		1641 1654 12481 18784 18786 18792 18798 18803 
+	}
+	manpower=104200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		owner = URG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = URG
+		victory_points = {
+			1614 3 
+		}
+
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=1000
+	name="STATE_1000"
+	provinces={
+		12707 13702 13706 13708 13711 13712 13716 13718 
+	}
+	manpower=170021
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = FWA
+		add_core_of = NGR
+		add_core_of = FWA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			13712 3
+		}
+
+	}
+}

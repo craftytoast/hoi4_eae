@@ -1,0 +1,22 @@
+state={
+	id=935
+	name="STATE_935"
+	provinces={
+		15821 15828 15832 15833 15841 15842 15843 15852 15853 
+	}
+	manpower=256200
+	buildings_max_level_factor=1.000
+				state_category=rural
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ANG
+		victory_points = {
+			15832 3
+		}	
+
+	}
+}

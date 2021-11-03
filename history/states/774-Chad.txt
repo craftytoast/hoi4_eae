@@ -1,0 +1,26 @@
+
+state={
+	id=774
+	name="STATE_774"
+
+	history={
+		owner = FRA
+		add_core_of = CHA
+		victory_points = {
+			2081 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2081 9152 13138 16230 16231 16239 16240 16242 16244 16248 16253 16254 16256 16258 16259 16262 16263 
+	}
+	manpower=395000
+	#1442456
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

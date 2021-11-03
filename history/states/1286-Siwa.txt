@@ -1,0 +1,25 @@
+state={
+	id=1286
+	name="STATE_1286"
+	provinces={
+		1143 7216 12764 13249 13252 20953 20955 
+	}
+	manpower=5402
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = EGY
+		victory_points = {
+			13249 3 
+		}
+		victory_points = {
+			1143 3 
+		}
+
+	}
+}

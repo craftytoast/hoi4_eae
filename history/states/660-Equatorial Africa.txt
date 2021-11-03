@@ -1,0 +1,29 @@
+
+state={
+	id=660
+	name="STATE_660"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = FRA
+		add_core_of = CAR
+		victory_points = {
+			12830 10 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		12830 16113 16126 16134 16135 16146 16152 
+	}
+	manpower=575221
+	#1136921
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

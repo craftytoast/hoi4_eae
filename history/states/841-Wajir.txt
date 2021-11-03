@@ -1,0 +1,21 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		2066 8133 12927 14514 14519 14521 14523 14526 14528 14534 14535 14537 14541 14544 14545 14548 14551 14553 14555 14560 14561 14564 
+	}
+	manpower=134400
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = ENG
+		victory_points = {
+			14528 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KEN
+		}
+}

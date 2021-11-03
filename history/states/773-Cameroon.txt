@@ -1,0 +1,35 @@
+
+state={
+	id=773
+	name="STATE_773"
+
+	history={
+		owner = FRA
+		add_core_of = CMR
+		victory_points = {
+			2080 3
+		}
+		victory_points = {
+			6039 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			6039 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2080 5036 6039 16090 16092 16093 16102 16103 
+	}
+	manpower=1430272
+	#2945782
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

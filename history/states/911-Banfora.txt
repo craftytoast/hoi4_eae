@@ -1,0 +1,23 @@
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		7983 8071 13660 13661 13662 13663 13664 13669 13670 
+	}
+	manpower=588600
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = FWA
+		add_core_of = VOL
+		add_core_of = FWA
+		victory_points = {
+			13663 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

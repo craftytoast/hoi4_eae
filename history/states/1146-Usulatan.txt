@@ -1,0 +1,22 @@
+state={
+	id=1146
+	name="STATE_1146"
+	provinces={
+		13093 17680 17682 17683 
+	}
+	manpower=403400
+	buildings_max_level_factor=1.000
+state_category=rural
+	history={
+		owner = ELS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = ELS
+		victory_points = {
+			13093 3 
+		}
+
+	}
+}

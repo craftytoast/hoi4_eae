@@ -1,0 +1,28 @@
+state={
+	id=1310
+	name="STATE_1310"
+	provinces={
+		7170 16905 16906 16908 16909 
+	}
+	manpower=147654
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = JOR
+		victory_points = {
+			16905 3 
+		}
+		victory_points = {
+			16906 3 
+		}
+		victory_points = {
+			16909 3 
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1144
+	name="STATE_1144"
+	provinces={
+		1633 4624 17561 17562 17564 17566 17569 17570 17572 
+	}
+	manpower=156800
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = PAN
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = PAN
+		victory_points = {
+			17566 3 
+		}
+
+	}
+}

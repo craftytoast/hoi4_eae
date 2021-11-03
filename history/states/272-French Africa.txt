@@ -1,0 +1,43 @@
+
+state={
+	id=272
+	name="STATE_272"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = FWA
+		add_core_of = SEN
+		add_core_of = FWA
+		victory_points = {
+			4948 5 
+		}
+		victory_points = {
+			13586 3
+		}
+		victory_points = {
+			13581 3
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			industrial_complex = 1
+			arms_factory = 1
+			4948 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4948 13581 13583 13586 
+	}
+	manpower=624690
+	#1638000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

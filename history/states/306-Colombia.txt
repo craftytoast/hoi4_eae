@@ -1,0 +1,35 @@
+
+state={
+	id=306
+	name="STATE_306"
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 2
+
+		}
+		add_core_of = COL
+		victory_points = {
+			10747 20 
+		}
+		victory_points = {
+			17780 3 
+		}
+		victory_points = {
+			17775 3 
+		}
+
+	}
+
+	provinces={
+		2079 7993 10747 17771 17773 17775 17776 17778 17779 17780 17781 17782 17783 17784 
+	}
+	manpower=1247600
+	#4953049
+	buildings_max_level_factor=1.000
+	state_category=city
+}

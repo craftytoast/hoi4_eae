@@ -1,0 +1,28 @@
+state={
+	id=1224
+	name="STATE_1224"
+	provinces={
+		8047 8252 17701 17704 17705 17706 17707 17708 17711 17714 17716 17717 17718 
+	}
+	manpower=702720
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = ECU
+		victory_points = {
+			8252 5 
+		}
+		victory_points = {
+			17707 3 
+		}
+		victory_points = {
+			17711 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ECU
+	}
+}
+

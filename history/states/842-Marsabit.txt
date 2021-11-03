@@ -1,0 +1,21 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		13135 14540 14543 14547 14550 14552 14556 14558 14563 14567 
+	}
+	manpower=36800
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = ENG
+		victory_points = {
+			14540 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KEN
+		}
+}

@@ -1,0 +1,26 @@
+state={
+	id=1315
+	name="STATE_1315"
+	provinces={
+		1600 3795 8123 13541 16875 16877 16882 16885 20999 21000 
+	}
+	manpower=287284
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = IRQ
+		add_core_of = KUR
+		victory_points = {
+			1600 3
+		}
+		victory_points = {
+			16877 3
+		}
+
+	}
+}

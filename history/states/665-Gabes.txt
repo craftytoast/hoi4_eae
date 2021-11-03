@@ -1,0 +1,26 @@
+
+state={
+	id=665
+	name="STATE_665"
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		victory_points = {
+			7005 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		7005 10082 11957 20605 20607 20613 20662 
+	}
+	manpower=196190
+	#427824
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

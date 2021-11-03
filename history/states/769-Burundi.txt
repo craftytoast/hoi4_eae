@@ -1,0 +1,25 @@
+
+state={
+	id=769
+	name="STATE_769"
+
+	history={
+		owner = BEL
+		add_core_of = BRD
+		victory_points = {
+			2220 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2220 14340 14341 14342 14343 14344 14345 14346 
+	}
+	manpower=2145731
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

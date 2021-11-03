@@ -1,0 +1,22 @@
+state={
+	id=972
+	name="STATE_972"
+	provinces={
+		3123 4897 16267 16269 16271 16273 
+	}
+	manpower=102300
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = FRA
+		add_core_of = CHA
+		victory_points = {
+			3123 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

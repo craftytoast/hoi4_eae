@@ -1,0 +1,19 @@
+state={
+	id=868
+	name="STATE_868"
+	provinces={
+		12963 14378 14385 14391 14394 14402 14405 14407 14408 14415 14419 14427 
+	}
+	manpower=30400
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BOT
+
+	}
+}

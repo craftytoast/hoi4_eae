@@ -1,0 +1,304 @@
+reich_labour_service = {
+
+    recruit_to_rad = {
+
+        icon = GFX_decision_eng_propaganda_campaigns
+
+        available = {
+            has_manpower > 15000
+            NOT = {
+                has_idea = all_adults_serve
+                has_idea = scraping_the_barrel
+                check_variable = { rad_conscripts = 100000 }
+            }
+        }
+
+        visible = {
+            NOT = {
+                check_variable = { rad_conscripts = 100000 }
+            }
+        }
+
+        cost = 10
+
+        days_remove = 5
+        days_re_enable = 25
+
+        remove_effect = {
+            custom_effect_tooltip = GER_tt_rad_recruitment
+            add_manpower = -10000
+            add_to_variable = { rad_conscripts = +10000 }
+            clamp_variable = {
+	            var = rad_conscripts
+	            min = 0
+	            max = 100000
+            }
+            if = {
+                limit ={
+                    check_variable = { rad_conscripts = 90000 }
+                }
+                add_ideas = GER_rad_bonus
+                add_manpower = var:rad_conscripts
+            }
+        }
+    }
+    recruit_to_autobahn = {
+
+        icon = GFX_decision_eng_propaganda_campaigns
+
+        available = {
+            has_manpower > 20000
+            NOT = {
+                has_war_with = ENG
+                has_war_with = FRA
+                has_war_with = SOV
+            }
+            custom_trigger_tooltip = {
+                tooltip = recruit_to_autobahn_tt
+                OR = {
+                    has_idea = GER_autobahn1
+                }
+            }
+        }
+
+
+        cost = 15
+
+        days_remove = 180
+        days_re_enable = 10
+
+        complete_effect = {
+            add_manpower = -15000
+        }
+
+        modifier = {
+			production_speed_infrastructure_factor = 0.1
+		}
+
+        remove_effect = {
+            add_manpower = 15000
+        }
+    }
+}
+
+ger_reichsautobahn = {
+
+    hamburg_kiel_route = {
+
+        icon = GFX_decision_generic_factory
+
+        available = {
+            hidden_trigger = {
+                has_idea = GER_autobahn1
+            }
+        }
+
+
+        cost = 15
+
+        days_remove = 80
+        trigger_only_once = yes
+
+        modifier = {
+			production_speed_infrastructure_factor = -0.02
+            civilian_factory_use = 1
+		}
+
+        remove_effect = {
+            58 = {
+                limit = {
+                    free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+                }
+                add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+            }
+        }
+    }
+
+
+
+}
+
+atlantikwall = {
+
+    fuhrerbefehle_40 = {
+
+        icon = GFX_decision_ger_reichskommissariats
+
+        cost = 3
+
+        trigger_only_once = yes
+
+        complete_effect = {
+            add_ideas = {
+                GER_atlantikwall 
+            }
+            custom_effect_tooltip = GER_tt_fuhrerbefehle_40
+            hidden_effect = {
+                set_country_flag = fuhrerbefehle_40_taken
+            }
+        }
+    }
+
+    construction_preparation = {
+
+        icon = GFX_decision_generic_construction
+
+        available = {
+            has_manpower > 100000
+            custom_trigger_tooltip = {
+                tooltip = alw_tt
+                OR = {
+                    has_country_flag = fuhrerbefehle_40_taken
+                }
+            }
+        }
+
+        cost = 5
+        days_remove = 30
+
+        modifier = {
+			production_speed_infrastructure_factor = -0.03
+            civilian_factory_use = 3
+		}
+
+        trigger_only_once = yes
+
+        complete_effect = {
+            add_manpower = -10000
+        }
+
+        remove_effect = {
+            add_manpower = -25000
+            hidden_effect = {
+                set_country_flag = alw_construction_begins
+            }
+        }
+    }
+
+    forts_in_holland = {
+
+        icon = GFX_decision_generic_construction
+
+        available = {
+            any_country = {
+                OR = {
+                    tag = GER
+                    is_in_faction_with = GER
+                }
+                has_full_control_of_state = 7
+            }
+            any_country = {
+                OR = {
+                    tag = GER
+                    is_in_faction_with = GER
+                }
+                has_full_control_of_state = 35
+            }
+            any_country = {
+                OR = {
+                    tag = GER
+                    is_in_faction_with = GER
+                }
+                has_full_control_of_state = 36
+            }
+            custom_trigger_tooltip = {
+                tooltip = alw_tt_2
+                OR = {
+                    has_country_flag = alw_construction_begins
+                }
+            }
+        }
+
+        cost = 15
+        days_remove = 30
+
+        modifier = {
+			production_speed_costal_bunker_factor = -0.03
+            civilian_factory_use = 1
+		}
+
+        trigger_only_once = yes
+
+        complete_effect = {
+            add_manpower = -2000
+        }
+
+        remove_effect = {
+            if = {
+                limit = {
+                    any_country = {
+                        OR = {
+                            tag = GER
+                            is_in_faction_with = GER
+                        }
+                        has_full_control_of_state = 7
+                    }
+                }
+                7 = {
+                    #Fortify naval bases
+                    add_building_construction = {
+                        type = coastal_bunker
+                        province = {
+                            all_provinces = yes
+                            limit_to_naval_base = yes
+                        }
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    any_country = {
+                        OR = {
+                            tag = GER
+                            is_in_faction_with = GER
+                        }
+                        has_full_control_of_state = 35
+                    }
+                }
+                35 = {
+                    #Fortify naval bases
+                    add_building_construction = {
+                        type = coastal_bunker
+                        province = {
+                            all_provinces = yes
+                            limit_to_naval_base = yes
+                        }
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    any_country = {
+                        OR = {
+                            tag = GER
+                            is_in_faction_with = GER
+                        }
+                        has_full_control_of_state = 36
+                    }
+                }
+                36 = {
+                    #Fortify naval bases
+                    add_building_construction = {
+                        type = coastal_bunker
+                        province = {
+                            all_provinces = yes
+                            limit_to_naval_base = yes
+                        }
+                        level = 2
+                        instant_build = yes
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=536
+	name="STATE_536"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			10444 20 
+		}
+		victory_points = {
+			12421 5 
+		}
+
+	}
+
+	provinces={
+		1512 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 19723 19724 19725 19726 19727 19728 19729 19730 19731 19732 19733 19734 19735 19736 19737 19738 19739 19740 19741 19742 
+	}
+	manpower=2812000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

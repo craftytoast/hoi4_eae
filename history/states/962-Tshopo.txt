@@ -1,0 +1,23 @@
+
+state={
+	id=962
+	name="STATE_962"
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = COG
+
+	}
+
+	provinces={
+		1950 10766 12847 15254 15260 15261 15262 15267 15268 15271 15273 15277 15280 15414 15415 15416 15425 15427 15430 15433 15437 15438 15442 15443 15446 
+	}
+	manpower=176400
+	buildings_max_level_factor=1.000
+	state_category=rural
+	impassable=yes
+}

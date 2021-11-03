@@ -1,0 +1,22 @@
+
+state={
+	id=491
+	name="STATE_491"
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PRU
+
+	}
+
+	provinces={
+		8213 10970 12869 17933 17936 17937 17940 17942 17946 17949 17954 17957 17962 17965 17967 17970 17971 17974 17976 
+	}
+	manpower=176626
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

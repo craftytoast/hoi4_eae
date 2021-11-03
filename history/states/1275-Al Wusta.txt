@@ -1,0 +1,24 @@
+state={
+	id=1275
+	name="STATE_1275"
+	provinces={
+		1947 8002 20830 20832 20835 20836 20837 20838 20839 20840 20841 20842 20843 20844 20845 
+	}
+	manpower=24160
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = OMA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OMA
+		victory_points = {
+			1947 3 
+		}
+		victory_points = {
+			20838 3 
+		}
+
+	}
+}

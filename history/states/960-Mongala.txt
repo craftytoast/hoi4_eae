@@ -1,0 +1,24 @@
+
+state={
+	id=960
+	name="STATE_960"
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = COG
+victory_points = {
+			15434 3
+		}	
+	}
+
+	provinces={
+		988 15421 15423 15424 15432 15434 15435 15440 15441 15444 15445 15450 15453 
+	}
+	manpower=133000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

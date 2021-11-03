@@ -1,0 +1,22 @@
+state={
+	id=1092
+	name="STATE_1092"
+	provinces={
+		1423 4223 4284 4341 7303 7331 12133 16816 16817 
+	}
+	manpower=2111280
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		add_core_of = VIN
+		owner = FRA
+				victory_points = {
+			12133 3 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+}

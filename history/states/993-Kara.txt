@@ -1,0 +1,23 @@
+state={
+	id=993
+	name="STATE_993"
+	provinces={
+		13212 13752 13754 13757 
+	}
+	manpower=239500
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = FWA
+		add_core_of = TOG
+		add_core_of = FWA
+		victory_points = {
+			13212 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

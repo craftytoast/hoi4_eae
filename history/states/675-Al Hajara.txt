@@ -1,0 +1,32 @@
+
+state={
+	id=675
+	name="STATE_675"
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+		victory_points = {
+			16876 3
+		}
+		victory_points = {
+			12413 3
+		}
+		victory_points = {
+			20992 3
+		}
+
+	}
+
+	provinces={
+		1631 4951 12413 16860 16861 16865 16867 16869 16872 16873 16876 20991 20992 20994 20995 20996 20998 
+	}
+	manpower=159398
+	#122093
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

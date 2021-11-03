@@ -1,0 +1,30 @@
+state={
+	id=1051
+	name="STATE_1051"
+	provinces={
+		4616 7662 10389 10443 16478 16479 16481 16669 16671 
+	}
+	manpower=6854200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		add_core_of = BAN
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PAK
+		add_core_of = RAJ
+		victory_points = {
+			16481 3
+		}
+		victory_points = {
+			16669 3
+		}
+		victory_points = {
+			16671 3
+		}
+
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=542
+	name="STATE_542"
+	resources={
+		chromium=90.000
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BOT
+		victory_points = {
+			8214 5 
+		}
+
+	}
+
+	provinces={
+		8214 14359 14360 14362 14364 14366 14371 14373 14376 14383 14384 14388 14392 14396 14399 
+	}
+	manpower=137000
+	#234000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

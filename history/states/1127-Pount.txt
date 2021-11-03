@@ -1,0 +1,26 @@
+state={
+	id=1127
+	name="STATE_1127"
+	provinces={
+		11014 12941 17209 17210 17211 17212 17214 17215 17217 17218 17222 17228 17230 17237 
+	}
+	manpower=365210
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = ITA
+		add_core_of = SOM
+		victory_points = {
+			12941 3 
+		}
+		buildings = {
+			infrastructure = 3
+			12941 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=780
+	name="STATE_780"
+
+	history={
+		owner = FWA
+		add_core_of = GNA
+		add_core_of = FWA
+		victory_points = {
+			1909 5 
+		}
+		victory_points = {
+			13558 3
+		}
+		victory_points = {
+			13551 3
+		}
+		buildings = {
+			infrastructure = 3
+			1909 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1909 12858 13551 13554 13558 13559 13562 
+	}
+	manpower=760000
+	#195041
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=778
+	name="STATE_778"
+
+	history={
+		owner = FWA
+		add_core_of = VOL
+		victory_points = {
+			10836 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		10836 13666 13667 13672 13673 13678 13679 
+	}
+	manpower=963600
+	#3186184
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

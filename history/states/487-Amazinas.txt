@@ -1,0 +1,26 @@
+
+state={
+	id=487
+	name="STATE_487"
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = BOL
+		victory_points = {
+			10924 10 
+		}
+
+	}
+
+	provinces={
+		2160 10924 10938 10982 12902 12916 12973 18000 18006 18008 18009 18014 18015 18016 18018 18019 18024 18025 18027 18030 18031 18034 18037 18039 18040 18041 18042 18045 18048 18049 18050 18051 18052 18053 18055 18057 18059 18061 18063 18065 18071 18072 18076 18077 18079 18087 18157 
+	}
+	manpower=531400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

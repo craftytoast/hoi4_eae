@@ -1,0 +1,20 @@
+state={
+	id=1226
+	name="STATE_1226"
+	provinces={
+		5165 10973 18141 18143 18146 18148 18150 18152 18153 18154 18155 18156 
+	}
+	manpower=2210
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = PAR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PAR
+		add_core_of = BOL
+
+	}
+}

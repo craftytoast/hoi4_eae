@@ -1,0 +1,19 @@
+state={
+	id=894
+	name="STATE_894"
+	provinces={
+		4961 7925 14671 14679 14681 14685 14686 14689 14690 14691 14692 14857 14869 
+	}
+	manpower=69700
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = ENG
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

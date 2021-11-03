@@ -1,0 +1,26 @@
+state={
+	id=979
+	name="STATE_979"
+	provinces={
+		12710 13587 13588 13589 13590 13591 13592 13593 13594 13595 13596 
+	}
+	manpower=224840
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+		history={
+		owner = FWA
+		add_core_of = SEN
+		add_core_of = FWA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			13591 3
+		}
+		victory_points = {
+			13590 3
+		}
+
+	}
+}

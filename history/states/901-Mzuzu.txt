@@ -1,0 +1,22 @@
+state={
+	id=901
+	name="STATE_901"
+	provinces={
+		13209 14335 14336 14337 14338 14339 
+	}
+	manpower=183120
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = ENG
+		add_core_of = MLW
+		victory_points = {
+			14336 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

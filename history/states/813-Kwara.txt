@@ -1,0 +1,25 @@
+state={
+	id=813
+	name="STATE_813"
+	provinces={
+		12731 12817 13825 13830 13831 13833 13835 13839 13843 13848 13851 13856 
+	}
+	manpower=1139600
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = NGA
+		add_core_of = NGA
+		victory_points = {
+			13831 5
+		}
+		victory_points = {
+			13825 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+	}
+}

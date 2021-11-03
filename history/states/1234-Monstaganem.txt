@@ -1,0 +1,26 @@
+state={
+	id=1234
+	name="STATE_1234"
+	provinces={
+		1013 12760 20566 20571 20572 20641 20646 20656 20747 
+	}
+	manpower=777250
+	state_category=town
+	buildings_max_level_factor=1.000
+		buildings_max_level_factor=1.000
+		history={
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			20571 3
+		}
+		victory_points = {
+			20646 3
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+}

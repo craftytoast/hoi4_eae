@@ -1,0 +1,25 @@
+state={
+	id=1102
+	name="STATE_1102"
+	provinces={
+		1353 4359 5236 7319 7404 10177 12191 16800 16802 16807 
+	}
+	manpower=533230
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		add_core_of = CAM
+		owner = FRA
+		victory_points = {
+			16807 3 
+		}
+		victory_points = {
+			7319 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+}

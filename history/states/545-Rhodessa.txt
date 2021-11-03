@@ -1,0 +1,26 @@
+
+state={
+	id=545
+	name="STATE_545"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			10929 5 
+		}
+		add_core_of = ZIM
+
+	}
+
+	provinces={
+		2216 10929 14112 14120 14122 14125 14128 14133 14134 14136 14137 14138 14139 14140 14141 14142 14143 
+	}
+	manpower=569000
+	#1171336
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

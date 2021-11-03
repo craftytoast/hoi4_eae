@@ -1,0 +1,19 @@
+state={
+	id=1090
+	name="STATE_1090"
+	provinces={
+		10772 10843 10898 12792 16704 16705 16708 16710 16713 
+	}
+	manpower=3552900
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = PAK
+
+	}
+}

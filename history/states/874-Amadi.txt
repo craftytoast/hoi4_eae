@@ -1,0 +1,22 @@
+state={
+	id=874
+	name="STATE_874"
+	provinces={
+		1953 14580 14583 14591 14600 14601 14602 14612 14614 14615 14624 14627 14629 14636 14637 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = ENG
+		add_core_of = SUD
+		victory_points = {
+			14615 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

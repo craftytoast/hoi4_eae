@@ -1,0 +1,35 @@
+
+state={
+	id=454
+	name="STATE_454"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		victory_points = {
+			1086 3 
+		}
+		victory_points = {
+			20960 3 
+		}
+	victory_points = {
+			7107 3 
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+
+	}
+
+	provinces={
+		1086 7107 20960 
+	}
+	manpower=356321
+	#933142
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

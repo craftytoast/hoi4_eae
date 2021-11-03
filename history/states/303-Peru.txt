@@ -1,0 +1,47 @@
+
+state={
+	id=303
+	name="STATE_303"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 6
+			air_base = 3
+			12997 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = PRU
+		victory_points = {
+			12997 25 
+		}
+		victory_points = {
+			17912 3 
+		}
+		victory_points = {
+			17872 3 
+		}
+		victory_points = {
+			17890 3 
+		}
+		victory_points = {
+			2162 3 
+		}
+
+	}
+
+	provinces={
+		2162 2225 12983 12997 17872 17876 17878 17880 17884 17887 17888 17889 17890 17897 17898 17899 17902 17904 17906 17908 17909 17912 17914 
+	}
+	manpower=1860200
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

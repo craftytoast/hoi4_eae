@@ -1,0 +1,27 @@
+
+state={
+	id=543
+	name="STATE_543"
+
+	history={
+		add_core_of = MAD
+		owner = FRA
+		victory_points = {
+			5128 20 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		2083 4977 5128 20170 20242 20357 20384 20769 20770 20774 20777 
+	}
+	manpower=1145220
+	#3694611
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

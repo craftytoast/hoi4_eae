@@ -1,0 +1,28 @@
+
+state={
+	id=1036
+	name="STATE_1036"
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			16349 3
+		}
+		victory_points = {
+			12181 15
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1277 7327 7463 10209 12113 12168 12181 12184 12302 16343 16344 16346 16347 16349 16350 
+	}
+	manpower=1295100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

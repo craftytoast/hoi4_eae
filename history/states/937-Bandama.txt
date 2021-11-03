@@ -1,0 +1,23 @@
+state={
+	id=937
+	name="STATE_937"
+	provinces={
+		13492 13503 13509 13513 13514 13527 
+	}
+	manpower=669200
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = FWA
+		add_core_of = IVO
+		add_core_of = FWA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			13503 3
+		}
+
+	}
+}

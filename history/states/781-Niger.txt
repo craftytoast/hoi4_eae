@@ -1,0 +1,27 @@
+
+state={
+	id=781
+	name="STATE_781"
+
+	history={
+		owner = FWA
+		add_core_of = NGR
+		add_core_of = FWA
+		victory_points = {
+			2056 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2056 13700 13705 13707 13709 
+	}
+	manpower=228403
+	#543817
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

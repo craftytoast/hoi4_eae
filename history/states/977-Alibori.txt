@@ -1,0 +1,23 @@
+state={
+	id=977
+	name="STATE_977"
+	provinces={
+		12762 13753 13756 13759 13760 13761 13762 13763 13764 
+	}
+	manpower=180700
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = FWA
+		add_core_of = DAH
+		add_core_of = FWA
+		victory_points = {
+			13756 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

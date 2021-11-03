@@ -1,0 +1,57 @@
+
+state={
+	id=613
+	name="STATE_613"
+
+	history={
+		victory_points = {
+			11913 30 
+		}
+		victory_points = {
+			13296 1 
+		}
+		victory_points = {
+			13295 1 
+		}
+		victory_points = {
+			13297 1 
+		}
+		victory_points = {
+			13298 1 
+		}
+		victory_points = {
+			7014 20
+		}
+		victory_points = {
+			10076 3 
+		}
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 6
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		996 1089 4091 7014 7120 10034 10076 11913 11928 11982 12052 12076 13142 13295 13296 13297 13298 16984 16990 
+	}
+	manpower=17305100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=550
+	name="STATE_550"
+
+	history={
+		owner = ITA
+		add_core_of = ERI
+		victory_points = {
+			12766 10 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			12766 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		5047 5091 12766 17318 17328 17330 17333 17334 
+	}
+	manpower=139540
+	#600600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

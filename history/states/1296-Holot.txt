@@ -1,0 +1,20 @@
+state={
+	id=1296
+	name="STATE_1296"
+	provinces={
+		20958 
+	}
+	manpower=782
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = PAL
+		add_core_of = ISR
+
+	}
+}

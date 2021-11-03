@@ -1,0 +1,22 @@
+state={
+	id=968
+	name="STATE_968"
+	provinces={
+		10948 13788 13790 13792 13793 13794 13796 13797 13798 13799 
+	}
+	manpower=24500
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = FRA
+		add_core_of = GAB
+		victory_points = {
+			13798 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1194
+	name="STATE_1194"
+	provinces={
+		10347 12336 18775 18780 18782 18787 18788 18791 18794 
+	}
+	manpower=169200
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+	history={
+		owner = URG
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = URG
+		victory_points = {
+			18775 3 
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		8096 13525 13536 13538 13539 13571 13755 
+	}
+	manpower=170200
+	buildings_max_level_factor=1.000
+		state_category = rural
+		history={
+		owner = GHA
+		add_core_of = GHA
+		victory_points = {
+			13536 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

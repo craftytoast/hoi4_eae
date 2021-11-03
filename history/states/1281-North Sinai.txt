@@ -1,0 +1,22 @@
+state={
+	id=1281
+	name="STATE_1281"
+	provinces={
+		1155 4161 9947 10002 11922 11979 16921 16922 16923 
+	}
+	manpower=75405
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4161 5 
+		}
+		add_core_of = EGY
+
+	}
+}

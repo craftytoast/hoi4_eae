@@ -1,0 +1,35 @@
+
+state={
+	id=681
+	name="STATE_681"
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 1
+			12589 = {
+				naval_base = 4
+
+			}
+
+		}
+		victory_points = {
+			12589 20
+		}
+		victory_points = {
+			15878 3
+		}	
+		add_core_of = SAF
+
+	}
+
+	provinces={
+		12589 15876 15877 15878 15879 15881 15883 15884 15885 15886 15887 15890 15892 15895 15896 
+	}
+	manpower=1326658
+	#1637178
+	buildings_max_level_factor=1.000
+	state_category=town
+}

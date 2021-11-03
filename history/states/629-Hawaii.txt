@@ -1,0 +1,64 @@
+
+state={
+	id=629
+	name="STATE_629"
+
+	history={
+		owner = USA
+		add_core_of = HAW
+		buildings = {
+			infrastructure = 3
+			air_base = 5
+			13328 = {
+				naval_base = 8
+
+			}
+			4180 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			4180 15 
+		}
+		victory_points = {
+			12021 3 
+		}
+		victory_points = {
+			13328 1
+		}
+		victory_points = {
+			13341 1
+		}
+		victory_points = {
+			13338 1
+		}
+		victory_points = {
+			13333 1
+		}
+		victory_points = {
+			13327 1
+		}
+		victory_points = {
+			7195 1
+		}
+		victory_points = {
+			13324 1
+		}
+		victory_points = {
+			10048 1
+		}
+
+
+
+
+	}
+
+	provinces={
+		4180 7112 7195 10048 12021 13321 13322 13323 13324 13325 13326 13327 13328 13329 13330 13331 13332 13333 13334 13335 13336 13337 13338 13339 13340 13341 
+	}
+	manpower=368336
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=547
+	name="STATE_547"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			5210 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			5210 3
+		}
+		add_core_of = KEN
+
+	}
+
+	provinces={
+		5210 14459 14460 14461 14462 14463 14464 14465 14467 14472 
+	}
+	manpower=366027 
+	#3392000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

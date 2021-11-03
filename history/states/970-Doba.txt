@@ -1,0 +1,22 @@
+state={
+	id=970
+	name="STATE_970"
+	provinces={
+		1993 16195 16204 16206 16210 16215 16222 
+	}
+	manpower=203300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+		history={
+		owner = FRA
+		add_core_of = CHA
+		victory_points = {
+			16204 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

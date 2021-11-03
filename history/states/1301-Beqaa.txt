@@ -1,0 +1,21 @@
+state={
+	id=1301
+	name="STATE_1301"
+	provinces={
+		20967 20968 
+	}
+	manpower=268700
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = LEB
+		victory_points = {
+			20968 3 
+		}
+	}
+}

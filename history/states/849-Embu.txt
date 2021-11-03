@@ -1,0 +1,18 @@
+state={
+	id=849
+	name="STATE_849"
+	provinces={
+		10962 14506 14509 14511 14515 14517 14520 
+	}
+	manpower=102000
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = KEN
+		}
+}

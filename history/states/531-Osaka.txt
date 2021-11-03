@@ -1,0 +1,62 @@
+
+state={
+	id=531
+	name="STATE_531"
+	resources={
+		aluminium=3.000
+	}
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			1136 = {
+				naval_base = 6
+
+			}
+			7072 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			7072 30 
+		}
+		victory_points = {
+			11960 30 
+		}
+		victory_points = {
+			13377 1 
+		}
+		victory_points = {
+			13378 1 
+		}
+		victory_points = {
+			13379 1 
+		}
+		victory_points = {
+			13380 1 
+		}
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+				industrial_complex = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 13374 13377 13378 13379 13380 16997 16998 16999 17000 17001 19705 
+	}
+	manpower=11015000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

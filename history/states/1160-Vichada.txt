@@ -1,0 +1,19 @@
+state={
+	id=1160
+	name="STATE_1160"
+	provinces={
+		17812 17816 17817 17819 17822 17825 17826 17830 17832 17834 17835 17836 17837 17840 17842 17843 17844 17845 17846 
+	}
+	manpower=24800
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = COL
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = COL
+
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1141
+	name="STATE_1141"
+	provinces={
+		2075 10728 17587 17593 17597 17600 17601 17602 17603 17604 17608 17610 17613 
+	}
+	manpower=48000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = NIC
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = NIC
+		victory_points = {
+			17602 3 
+		}
+
+	}
+}

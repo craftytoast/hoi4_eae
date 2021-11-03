@@ -1,0 +1,29 @@
+
+state={
+	id=770
+	name="STATE_770"
+
+	history={
+		owner = ENG
+		add_core_of = MLW
+		victory_points = {
+			12986 3 
+		}
+		victory_points = {
+			14333 3
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2255 12986 14329 14330 14331 14332 14333 14334 
+	}
+	manpower=601420
+	#1603975
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

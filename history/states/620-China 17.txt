@@ -1,0 +1,57 @@
+
+state={
+	id=620
+	name="STATE_620"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			4619 20 
+		}
+		victory_points = {
+			13292 1.0 
+		}
+		victory_points = {
+			13293 1.0 
+		}
+		victory_points = {
+			13294 1.0 
+		}
+		1938.10.25 = {
+			buildings = {
+				industrial_complex = 3
+				infrastructure = 6
+				air_base = 2
+				arms_factory = 2
+
+			}
+			JAP = {
+				set_province_controller = 1036
+				set_province_controller = 4619
+				set_province_controller = 4631
+				set_province_controller = 7167
+				set_province_controller = 7637
+				set_province_controller = 9959
+				set_province_controller = 10462
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1036 1612 4009 4130 4619 4631 7019 7167 7580 7596 7609 7625 7637 7948 8072 9934 9959 10462 10474 12408 12467 13291 13292 13293 13294 16933 16934 16937 16939 16942 16962 16963 16964 16965 16978 16980 16981 16982 16983 16986 16989 16991 16992 19684 19687 19688 19691 
+	}
+	manpower=25541600
+	buildings_max_level_factor=1.000
+	state_category=city
+}

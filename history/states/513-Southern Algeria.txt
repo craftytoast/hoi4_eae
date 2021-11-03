@@ -1,0 +1,29 @@
+
+state={
+	id=513
+	name="STATE_513"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			12018 3
+		}
+		victory_points = {
+			13074 3
+		}
+		buildings = {
+			infrastructure = 2
+			
+		}
+
+	}
+
+	provinces={
+		3991 7008 10045 12018 13074 20698 20699 20704 20705 20707 20711 20713 20717 20718 20722 20734 20737 
+	}
+	manpower=125450
+	#811486
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

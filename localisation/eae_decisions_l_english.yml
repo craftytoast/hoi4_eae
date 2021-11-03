@@ -1,0 +1,27 @@
+﻿l_english:
+ welfare_system:0 "Welfare System"
+ welfare_system_desc:0 "You need to keep Welfare high to avoid nasty debuffs. Current Wefare Rating -> [?welfare_rating|§Y0 ]"
+ develop_infrastructure:0 "Develop Infrastructure"
+ civilian_focus:0 "Civilian Goods Focus"
+ wartime_industry:0 "Wartime Industry"
+ develop_industry:0 "Develop Industry"
+ emergency_war_conversions:0 "Emergency Wartime Conversions"
+
+ reich_labour_service:0 "The Reichsarbeitsdienst/RAD"
+ reich_labour_service_desc:0 "The Reichsarbeitsdienst/RAD (English:\ Reich Labour Service) was an organisation established in the Third Reich as an agency to help mitigate the effects of unemployment on the German Economy and militarise the workforce. Headed by Konstantin Hierl, men aged between 18 and 25 may have served six months in the RAD before their military service."
+ recruit_to_rad:0 "Conscript to the RAD"
+ GER_tt_rad_recruitment:0 "§CAfter investing 100,000 manpower, all manpower will be refunded, and you will get a bonus in the form of an idea!§!"
+ recruit_to_autobahn:0 "Recruit for Reichsautobahn Construction"
+ recruit_to_autobahn_tt:0 "§YHas one of the Reichsautobahn Ideas§!"
+
+ ger_reichsautobahn:0 "Reichsautobahn"
+ hamburg_kiel_route:0 "Hamburg-Kiel Route"
+
+ atlantikwall:0 "Atlantikwall"
+ fuhrerbefehle_40:0 "Führerbefehle 40"
+ GER_tt_fuhrerbefehle_40:0 "§GHitler will issue Führer Directive 40, signaling the begining of construction on the Atlantikwall§!"
+ construction_preparation:0 "Prepare it's Construction"
+ alw_tt:0 "Führerbefehle 40 has been issued"
+ forts_in_holland:0 "Forts in Holland"
+ alw_tt_2:0 "The Atlantikwall has begun construction"
+ 

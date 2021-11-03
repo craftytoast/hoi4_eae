@@ -1,0 +1,85 @@
+ideas = {
+
+	country = {
+
+		GER_autobahn1 = {
+
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+			
+			modifier = {
+				political_power_gain = -0.01
+				consumer_goods_factor = 0.01
+				production_speed_infrastructure_factor = 0.08
+			}
+		}
+
+		GER_nearing_full_employment = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = -0.05
+				production_speed_buildings_factor = 0.03
+				industrial_capacity_factory = 0.03
+			}
+		}
+		GER_rad_bonus = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				dig_in_speed_factor = 0.05
+			}
+		}
+		GER_atlantikwall = {
+			picture = generic_fortify_the_borders
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.02
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+	}
+		
+}

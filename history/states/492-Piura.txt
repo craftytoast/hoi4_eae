@@ -1,0 +1,33 @@
+
+state={
+	id=492
+	name="STATE_492"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = PRU
+		victory_points = {
+			17868 5 
+		}
+		victory_points = {
+			17864 3 
+		}
+
+	}
+
+	provinces={
+		5202 12953 17859 17860 17863 17864 17865 17866 17868 17869 17873 17875 
+	}
+	manpower=601278
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

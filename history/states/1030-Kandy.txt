@@ -1,0 +1,22 @@
+state={
+	id=1030
+	name="STATE_1030"
+	provinces={
+		1213 10287 16371 16373 
+	}
+	manpower=1331500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	history={
+		add_core_of = SRL
+		owner = ENG
+		victory_points = {
+			16371 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+}

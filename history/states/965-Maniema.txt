@@ -1,0 +1,25 @@
+
+state={
+	id=965
+	name="STATE_965"
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = COG
+		victory_points = {
+			15246 3
+		}	
+
+	}
+
+	provinces={
+		7161 15198 15203 15205 15211 15212 15213 15222 15225 15226 15232 15233 15234 15236 15237 15239 15244 15246 15247 15250 15252 15253 15255 15256 
+	}
+	manpower=138900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

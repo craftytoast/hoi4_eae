@@ -1,0 +1,32 @@
+
+state={
+	id=718
+	name="STATE_718"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = COG
+		victory_points = {
+			15264 3
+		}	
+		victory_points = {
+			15281 3
+		}	
+
+	}
+
+	provinces={
+		1181 4201 13176 15259 15263 15264 15265 15266 15269 15270 15272 15274 15275 15276 15278 15279 15281 15282 15283 15284 15285 
+	}
+	manpower=699125
+	#2366783
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

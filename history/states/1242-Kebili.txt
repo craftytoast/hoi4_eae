@@ -1,0 +1,19 @@
+state={
+	id=1242
+	name="STATE_1242"
+	provinces={
+		3987 9983 13145 13179 20589 20596 20606 20609 20617 20621 
+	}
+	manpower=35880
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+}

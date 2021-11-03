@@ -1,0 +1,26 @@
+state={
+	id=906
+	name="STATE_906"
+	provinces={
+		2044 10788 13625 13626 13629 13635 13636 13637 13643 13644 13646 13647 13651 13652 13653 13656 
+	}
+	manpower=346290
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = FWA
+		add_core_of = MLI
+		add_core_of = FWA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			13626 3
+		}
+		victory_points = {
+			13652 3
+		}
+
+	}
+}

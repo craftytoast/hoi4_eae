@@ -1,0 +1,27 @@
+state={
+	id=1125
+	name="STATE_1125"
+	provinces={
+		8019 17351 17354 17360 17363 17370 17375 17381 17382 17385 17386 17387 17391 17393 17396 17398 17407 17408 17414 17417 17552 
+	}
+	manpower=1051192
+	buildings_max_level_factor=1.000
+		state_category=rural
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			17387 3 
+		}
+		add_core_of = ETH
+		1936.6.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+
+	}
+}

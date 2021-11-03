@@ -1,0 +1,33 @@
+
+state={
+	id=779
+	name="STATE_779"
+
+	history={
+		owner = FWA
+		add_core_of = IVO
+		add_core_of = FWA
+		victory_points = {
+			10803 20
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			10803 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		10803 13481 13483 13484 13489 13491 
+	}
+	manpower=1568000
+	#3850734
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,19 @@
+state={
+	id=1227
+	name="STATE_1227"
+	provinces={
+		2173 2194 18099 18100 18101 18102 18103 18104 18105 
+	}
+	manpower=80300
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = PAR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PAR
+
+	}
+}

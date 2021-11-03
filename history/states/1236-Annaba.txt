@@ -1,0 +1,29 @@
+state={
+	id=1236
+	name="STATE_1236"
+	provinces={
+		1058 1160 7081 11953 20637 20644 20645 20654 20655 20660 
+	}
+	manpower=1051750
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = ALG
+		add_core_of = ALG
+		victory_points = {
+			7081 5 
+		}
+		victory_points = {
+			20660 3
+		}
+		buildings = {
+			infrastructure = 4
+			7081 = {
+				naval_base = 1
+
+			}
+			industrial_complex = 1
+		}
+
+	}
+}

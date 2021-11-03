@@ -1,0 +1,32 @@
+state={
+	id=1157
+	name="STATE_1157"
+	provinces={
+		1937 2085 8056 12845 17744 17745 17747 17748 17749 17751 17752 17753 17754 17785 17786 17787 17788 
+	}
+	manpower=878560
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = COL
+		buildings = {
+			infrastructure = 3
+			8056 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = COL
+		victory_points = {
+			1937 10
+		}
+		victory_points = {
+			17749 3 
+		}
+		victory_points = {
+			17786 3 
+		}
+
+	}
+}

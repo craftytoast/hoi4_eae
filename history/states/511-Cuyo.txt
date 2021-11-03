@@ -1,0 +1,26 @@
+
+state={
+	id=511
+	name="STATE_511"
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = ARG
+		
+
+	}
+
+	provinces={
+		2215 8215 10992 11021 18616 18618 18620 18622 18656 18657 18662 18664 18665 18666 18667 18669 18670 18672 18676 18677 18678 18682 18684 18685 
+	}
+	manpower=526230
+	#1090274
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

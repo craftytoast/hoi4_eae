@@ -1,0 +1,19 @@
+state={
+	id=1020
+	name="STATE_1020"
+	provinces={
+		4822 15898 15899 15901 15902 15906 15909 15910 15911 15913 15918 15928 
+	}
+	manpower=11360
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SAF
+
+	}
+}

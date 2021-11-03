@@ -1,0 +1,28 @@
+state={
+	id=1032
+	name="STATE_1032"
+	provinces={
+		10201 16374 16375 
+	}
+	manpower=873750
+	buildings_max_level_factor=1.000
+    state_category=rural
+	history={
+		add_core_of = SRL
+		owner = ENG
+		victory_points = {
+			10201 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+			10201 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+}

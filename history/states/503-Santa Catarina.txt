@@ -1,0 +1,24 @@
+
+state={
+	id=503
+	name="STATE_503"
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+
+		}
+		add_core_of = BRA
+
+	}
+
+	provinces={
+		4533 4548 10405 18911 18912 18913 18914 18915 18916 18917 18918 18920 18924 18925 18926 18927 18928 18932 18934 
+	}
+	manpower=1361160
+	#1922700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+state={
+	id=1287
+	name="STATE_1287"
+	provinces={
+		20933 20934 20937 20939 20944 20951 20952 
+	}
+	manpower=18175
+	buildings_max_level_factor=1.000
+		state_category=pastoral
+		history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = EGY
+		victory_points = {
+			20952 1 
+		}
+		victory_points = {
+			20944 1 
+		}
+		victory_points = {
+			20933 3 
+		}
+
+	}
+}

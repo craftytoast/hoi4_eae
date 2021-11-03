@@ -1,0 +1,28 @@
+state={
+	id=1248
+	name="STATE_1248"
+	provinces={
+		1152 1207 4933 7908 8046 20517 20519 20523 20524 20525 20528 20529 20530 20534 20536 20537 20538 20540 20541 20542 20543 20547 20550 20551 20553 20554 
+	}
+	manpower=1065060
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = MOR
+		add_core_of = MOR
+				victory_points = {
+			 1207 10 
+		}
+		victory_points = {
+			 20543 3 
+		}
+		victory_points = {
+			 20534 3
+		}		
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+}

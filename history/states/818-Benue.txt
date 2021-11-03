@@ -1,0 +1,23 @@
+state={
+	id=818
+	name="STATE_818"
+	provinces={
+		1992 7978 13815 13822 13823 13826 13827 13837 13840 
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = NGA
+		add_core_of = NGA
+		victory_points = {
+			1992 3
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+			industrial_complex = 0
+
+		}
+	}
+}

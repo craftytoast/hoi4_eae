@@ -1,0 +1,27 @@
+
+state={
+	id=556
+	name="STATE_556"
+
+	history={
+		owner = FWA
+		add_core_of = MLI
+		add_core_of = FWA
+		victory_points = {
+			4927 20 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		4927 10829 12751 13601 13603 13608 13610 13612 13615 13618 
+	}
+	manpower=1180990
+	#3324782
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=958
+	name="STATE_958"
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = COG
+		victory_points = {
+			15336 3
+		}	
+
+	}
+
+	provinces={
+		1516 1929 15184 15306 15308 15309 15312 15316 15318 15321 15323 15332 15333 15336 15339 15342 15346 15352 15358 
+	}
+	manpower=405000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

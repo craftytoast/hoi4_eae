@@ -1,0 +1,19 @@
+state={
+	id=1197
+	name="STATE_1197"
+	provinces={
+		1542 1598 5110 7581 18838 18846 18850 18852 18854 18856 18857 18859 18860 18862 18863 18864 18865 18866 
+	}
+	manpower=756010
+	buildings_max_level_factor=1.000
+		state_category=rural
+		history={
+		owner = BRA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = BRA
+
+	}
+}

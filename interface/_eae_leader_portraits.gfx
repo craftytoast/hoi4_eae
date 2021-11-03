@@ -1,0 +1,19 @@
+spriteTypes = {
+	
+	# French Colonial Empire
+	
+	spriteType = {
+		name = "GFX_portrait_fwa_jules_brevie"
+		texturefile = "gfx/leaders/French Colonial Empire/Portrait_France_jules_brevie.dds"		
+	}
+	spriteType = {
+		name = "GFX_portrait_fwa_marcel_peyrouton"
+		texturefile = "gfx/leaders/French Colonial Empire/Portrait_France_marcel_peyrouton.dds"		
+	}
+	spriteType = {
+		name = "GFX_portrait_fwa_henri_ponost"
+		texturefile = "gfx/leaders/French Colonial Empire/Portrait_France_henri_ponsot.dds"		
+	}
+
+	
+}

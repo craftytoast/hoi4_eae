@@ -1,0 +1,35 @@
+
+state={
+	id=658
+	name="STATE_658"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		add_core_of = UAE
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			17151 10 
+		}
+		victory_points = {
+			17098 3 
+		}
+		victory_points = {
+			17150 1 
+		}
+
+	}
+
+	provinces={
+		2048 8108 17094 17095 17098 17150 17151 20867 20868 20869 20870 20871 20872 
+	}
+	manpower=45954
+	#170200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

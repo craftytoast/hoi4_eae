@@ -1,0 +1,22 @@
+state={
+	id=1246
+	name="STATE_1246"
+	provinces={
+		4139 10107 11943 20585 20586 20588 20590 20592 20593 20595 20600 
+	}
+	manpower=398160
+	buildings_max_level_factor=1.000
+	state_category=rural
+		history={
+		owner = MOR
+		add_core_of = MOR
+				victory_points = {
+			 20592 3 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+}

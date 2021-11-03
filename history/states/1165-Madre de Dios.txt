@@ -1,0 +1,19 @@
+state={
+	id=1165
+	name="STATE_1165"
+	provinces={
+		8160 8191 10940 17871 17877 17881 17883 17885 17886 17893 17894 17895 17900 17901 17911 
+	}
+	manpower=20400
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PRU
+
+	}
+}

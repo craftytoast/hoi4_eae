@@ -1,0 +1,25 @@
+state={
+	id=963
+	name="STATE_963"
+	provinces={
+		2034 2073 6027 11934 12808 15454 15456 15457 15458 15463 15466 15469 15473 15476 15478 15480 15481 15487 15488 15489 15493 15494 15495 15496 15498 15502 15503 15506 15507 15508 
+	}
+	manpower=85350
+	buildings_max_level_factor=1.000
+			state_category=rural
+		history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = COG
+		victory_points = {
+			6027 3
+		}	
+		victory_points = {
+			15480 3
+		}		
+
+	}
+}
